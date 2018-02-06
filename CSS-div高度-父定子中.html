@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+
+body{margin: 0;}
+
+.son{
+    border: 1px solid red;
+    width: 200px;
+    padding: 10px;
+    /* 为什么儿子的高度要固定，不能自适应文字的多少吗 */
+    height: 10px;
+}
+.dad{
+    border: 5px solid green;
+    height: 100vh;
+    box-sizing: border-box;
+    /* 以下是重点 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+    </style>
+</head>
+<body>
+
+<div class="dad">
+    <div class="son">
+        喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵
+    </div>
+</div>
+
+
+
+</body>
+</html>
